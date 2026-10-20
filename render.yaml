@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: antgravityboard
+    runtime: node
+    region: frankfurt
+    plan: free
+    rootDir: antgravity-server
+    buildCommand: npm install
+    startCommand: npm start
